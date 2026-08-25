@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "QPCE, the quantum polynomial chaos expansion"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/jamalslim/qpce_code"
+authors:
+  - family-names: "[surname]"
+    given-names: "[given names]"
+preferred-citation:
+  type: article
+  title: "[manuscript title]"
+  year: 2026
+  authors:
+    - family-names: "[surname]"
+      given-names: "[given names]"

@@ -1,0 +1,14 @@
+# Exact versions used to produce every number in the manuscript.
+#
+#     pip install -r requirements-lock.txt
+#
+# Use this if a value from scripts/reproduce.py disagrees with the paper. The
+# results are not knife-edge sensitive to these versions, but pinning removes
+# the question.
+
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+
+# Python 3.12.3 was used. Anything from 3.10 onwards should work.

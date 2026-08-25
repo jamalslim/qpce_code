@@ -1,0 +1,10 @@
+# Optional, and nothing in the manuscript depends on either.
+#
+# mplhep  gives the figures their HEP house style. Without it plot_paper.py
+#         falls back to a close matplotlib approximation, which is not
+#         pixel-identical but carries the same content.
+# tqdm    prints a progress bar during training. The package ships a shim, so
+#         its absence changes nothing.
+
+mplhep>=0.3
+tqdm>=4.65
